@@ -35,34 +35,58 @@ Get yourself logged in and ready to setup your project details:
 
 `appwrite login`
 ? Enter your email 
+
 ? Enter your password
+
 ♥ Hint: Next you can create or link to your project using 'appwrite init project'
+
 
 Connect to your Appwrite project:
 `appwrite init project`
+
+
 ? How would you like to start? Link directory to an existing project
+
 ? Choose your organization <ID>
+
 ? Choose your Appwrite project. <ID>>
+
 ✓ Success: Project successfully linked. Details are now stored in appwrite.json file.
 
 ? Would you like to pull all resources from project you just linked? **Yes**
 
 ℹ Info: Pulling project settings ...
+
 ✓ Success: Successfully pulled all project settings.
+
 ℹ Info: Fetching functions ...
+
 ℹ Info: No functions found.
+
 ✓ Success: Successfully pulled 0 functions.
+
 ℹ Info: Fetching collections ...
+
 ℹ Info: Pulling all collections from bloxez database ...
+
 ✓ Success: Successfully pulled 1 collections.
+
 ℹ Info: Fetching buckets ...
+
 ℹ Info: No buckets found.
+
 ✓ Success: Successfully pulled 0 buckets.
+
 ℹ Info: Fetching teams ...
+
 ✓ Success: Successfully pulled 0 teams.
+
 ℹ Info: Fetching topics ...
+
 ℹ Info: No topics found.
+
 ✓ Success: Successfully pulled 0 topics.
+
 
 ♥ Hint: Next you can use 'appwrite init' to create resources in your project, or use 'appwrite pull' and 'appwrite push' to synchronize your project.
 
