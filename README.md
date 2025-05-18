@@ -265,4 +265,6 @@ rest!**
 
 ## Next Ideas
 
+- At the moment we're working on building the collections and next we have to create the relationships between collections.
+
 - Once we have the schema generated and uploaded into Appwrite, we should be able to automatically load the sample data.

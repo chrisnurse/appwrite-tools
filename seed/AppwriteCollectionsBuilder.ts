@@ -29,7 +29,7 @@ export default class AppwriteCollectionsBuilder {
                 enabled: true,
                 documentSecurity: false,
                 attributes: typedFields
-                    .filter(f => f.key !== 'id') // Ignore 'id' field
+                    .filter(f => f.key !== 'id' && f.type != "collection") // Ignore 'id' field
                     .map(f => ({
                         key: f.key,
                         type: f.type,
