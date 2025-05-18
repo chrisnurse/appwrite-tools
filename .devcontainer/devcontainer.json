@@ -1,0 +1,32 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.183.0/containers/deno
+{
+  "name": "appwrite-tools",
+  "remoteUser": "node",
+  "dockerFile": "Dockerfile",
+  "runArgs": ["--init", "--privileged", "--name", "appwrite-tools"],
+  "mounts": [
+    "source=dind-var-lib-docker,target=/var/lib/docker,type=volume",
+    "source=${localEnv:HOME}/.ssh,target=/home/node/.ssh,type=bind,consistency=cached"
+  ],
+  "containerEnv": {},
+  "remoteEnv": {},
+  "features": {
+    "ghcr.io/devcontainers/features/docker-from-docker:1": {
+      "version": "latest",
+      "moby": true
+    }
+  },
+  "customizations": {
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "denoland.vscode-deno",
+        "github.copilot"
+      ]
+    }
+  },
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [],
+  "postStartCommand": ""
+}

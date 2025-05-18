@@ -1,0 +1,8 @@
+{
+  "root": "root",
+  "documents": [
+    "customer",
+    "order",
+    "coupon"
+  ]
+}

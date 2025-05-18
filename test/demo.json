@@ -1,0 +1,52 @@
+{
+  "customer": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "order": [
+        {
+          "id": 1,
+          "product": "cream",
+          "price": 1.50
+        }
+      ],
+      "coupon": {
+        "10_off": {
+          "customerId": "1",
+          "id": "10_off",
+          "description": "10% off"
+        },
+        "20_off": {
+          "customerId": "1",
+          "id": "20_off",
+          "description": "20% off this month"
+        }
+      }
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "order": [
+        {
+          "id": 2,
+          "product": "lotion",
+          "price": 2.00
+        }
+      ],
+      "coupon": {
+        "5_off": {
+          "customerId": "2",
+          "id": "5_off",
+          "description": "5% off"
+        },
+        "25_off": {
+          "customerId": "2",
+          "id": "25_off",
+          "description": "25% off first order"
+        }
+      }
+    }
+  ]
+}

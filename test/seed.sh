@@ -1,0 +1,1 @@
+deno test --no-check --allow-read --allow-write JsDbSchemaBuilder.spec.ts
